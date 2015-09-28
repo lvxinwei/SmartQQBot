@@ -1,0 +1,4 @@
+#LWP-Cookies-2.0
+Set-Cookie3: RK=HF3DvOHokB; path="/"; domain=".qq.com"; path_spec; expires="2025-09-24 15:12:20Z"; version=0
+Set-Cookie3: pt2gguin=o3050583943; path="/"; domain=".qq.com"; path_spec; expires="2020-01-02 00:00:00Z"; version=0
+Set-Cookie3: pt_user_id=10472742623926913197; path="/"; domain=".ui.ptlogin2.qq.com"; path_spec; expires="2025-09-24 15:09:05Z"; version=0

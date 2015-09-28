@@ -20,7 +20,7 @@ class InputNotify(Notify):
         self.reply_ip = json_input['value']['reply_ip']
         self.to_uin = json_input['value']['to_uin']
 
-
+#状态改变
 class BuddiesStatusChange(Notify):
 
     def __init__(self, json_input):
@@ -29,7 +29,7 @@ class BuddiesStatusChange(Notify):
         self.client_type = json_input['value']['client_type']
         self.uin = json_input['value']['uin']
 
-
+#下线消息
 class KickMessage(Notify):
 
         def __init__(self, json_input):
