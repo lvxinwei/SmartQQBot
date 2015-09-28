@@ -3,10 +3,10 @@ import requests
 import pickle
 from cookielib import LWPCookieJar
 class HttpRequests:
-    def __init__(self,loadCookie=False):
+    def __init__(self,isLoadCookie=False):
         self.req=requests.session()
         self.cookieFileName="cookieJar"
-        if loadCookie :
+        if isLoadCookie :
             self.__loadCookie()
         self.req.headers['referer']='http://d.web2.qq.com/proxy.html?v=20030916001&callback=1&id=2'
         self.req.headers['Accept']= 'application/javascript, */*;q=0.8';

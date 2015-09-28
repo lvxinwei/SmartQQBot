@@ -8239,3 +8239,320 @@ Mon, 28 Sep 2015 00:54:17  connectionpool.py[line:223] INFO Resetting dropped co
 Mon, 28 Sep 2015 00:55:22  connectionpool.py[line:362] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
 Mon, 28 Sep 2015 00:55:22  new.py[line:175] INFO received retcode: 102: No message.
 Mon, 28 Sep 2015 00:55:23  connectionpool.py[line:223] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:16:22  new.py[line:59] INFO Requesting the login pages...
+Mon, 28 Sep 2015 13:16:22  connectionpool.py[line:203] INFO Starting new HTTP connection (1): w.qq.com
+Mon, 28 Sep 2015 13:16:24  connectionpool.py[line:383] DEBUG "GET /login.html HTTP/1.1" 200 None
+Mon, 28 Sep 2015 13:16:24  connectionpool.py[line:735] INFO Starting new HTTPS connection (1): ui.ptlogin2.qq.com
+Mon, 28 Sep 2015 13:16:24  connectionpool.py[line:383] DEBUG "GET /cgi-bin/login?daid=164&target=self&style=16&mibao_css=m_webqq&appid=501004106&enable_qlogin=0&no_verifyimg=1&s_url=http%3A%2F%2Fw.qq.com/proxy.html&f_url=loginerroralert&strong_login=1&login_state=10&t=20130723001&f_qr=0 HTTP/1.1" 200 15085
+Mon, 28 Sep 2015 13:16:24  connectionpool.py[line:735] INFO Starting new HTTPS connection (1): ssl.ptlogin2.qq.com
+Mon, 28 Sep 2015 13:16:25  connectionpool.py[line:383] DEBUG "GET /ptqrshow?appid=501004106&e=0&l=L&s=8&d=72&v=4 HTTP/1.1" 200 383
+Mon, 28 Sep 2015 13:16:25  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-1000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 66
+Mon, 28 Sep 2015 13:16:27  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-3000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 66
+Mon, 28 Sep 2015 13:16:29  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-5000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 66
+Mon, 28 Sep 2015 13:16:31  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-7000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 66
+Mon, 28 Sep 2015 13:16:33  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-9000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 66
+Mon, 28 Sep 2015 13:16:35  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-11000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 66
+Mon, 28 Sep 2015 13:16:37  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-13000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 66
+Mon, 28 Sep 2015 13:16:39  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-15000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 66
+Mon, 28 Sep 2015 13:16:41  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-17000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 66
+Mon, 28 Sep 2015 13:16:43  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-19000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 66
+Mon, 28 Sep 2015 13:16:45  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-21000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 66
+Mon, 28 Sep 2015 13:16:47  connectionpool.py[line:383] DEBUG "GET /ptqrlogin?webqq_type=10&remember_uin=1&login2qq=1&aid=501004106&u1=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&ptredirect=0&ptlang=2052&daid=164&from_ui=1&pttype=1&dumy=&fp=loginerroralert&action=0-0-23000&mibao_css=m_webqq&t=undefined&g=1&js_type=0&js_ver=10135&login_sig= HTTP/1.1" 200 None
+Mon, 28 Sep 2015 13:16:49  connectionpool.py[line:203] INFO Starting new HTTP connection (1): ptlogin4.web2.qq.com
+Mon, 28 Sep 2015 13:16:49  connectionpool.py[line:383] DEBUG "GET /check_sig?pttype=1&uin=3050583943&service=ptqrlogin&nodirect=0&ptsigx=8847fec05467ab5f1dd9896c4fecb9eff7a6c5236d76727108b05e3b1d953839bc739ebe79f020202ad0db6a54cc418b95e4090358477bfd021a940a84b39adc&s_url=http%3A%2F%2Fw.qq.com%2Fproxy.html%3Flogin2qq%3D1%26webqq_type%3D10&f_url=&ptlang=2052&ptredirect=100&aid=501004106&daid=164&j_later=0&low_login_hour=0&regmaster=0&pt_login_type=3&pt_aid=0&pt_aaid=16&pt_light=0&pt_3rd_aid=0 HTTP/1.1" 302 None
+Mon, 28 Sep 2015 13:16:49  connectionpool.py[line:238] INFO Resetting dropped connection: w.qq.com
+Mon, 28 Sep 2015 13:16:49  connectionpool.py[line:383] DEBUG "GET /proxy.html?login2qq=1&webqq_type=10 HTTP/1.1" 200 None
+Mon, 28 Sep 2015 13:16:49  new.py[line:31] WARNING Get mibao_res Url Error.
+Mon, 28 Sep 2015 13:16:49  connectionpool.py[line:203] INFO Starting new HTTP connection (1): d.web2.qq.com
+Mon, 28 Sep 2015 13:16:51  connectionpool.py[line:383] DEBUG "POST /channel/login2 HTTP/1.1" 200 458
+Mon, 28 Sep 2015 13:16:51  new.py[line:255] INFO Requesting the account by uin:    2891802047
+Mon, 28 Sep 2015 13:16:51  connectionpool.py[line:203] INFO Starting new HTTP connection (1): s.web2.qq.com
+Mon, 28 Sep 2015 13:16:51  connectionpool.py[line:383] DEBUG "GET /api/get_friend_uin2?tuin=2891802047&type=1&vfwebqq=12bafe3dc63b7a2482d76e0ecc39e6005f6b8d822530409e22c690c4997f9ea6e4abc74a996e6092 HTTP/1.1" 200 73
+Mon, 28 Sep 2015 13:16:51  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:17:03  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 275
+Mon, 28 Sep 2015 13:17:03  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'PmMsg' is not defined
+Mon, 28 Sep 2015 13:17:04  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:18:04  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:18:04  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:18:05  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:19:07  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:19:07  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:19:08  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:20:07  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 276
+Mon, 28 Sep 2015 13:20:07  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'PmMsg' is not defined
+Mon, 28 Sep 2015 13:20:08  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:20:09  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 276
+Mon, 28 Sep 2015 13:20:09  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'PmMsg' is not defined
+Mon, 28 Sep 2015 13:20:10  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:21:10  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:21:10  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:21:11  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:22:13  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:22:13  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:22:14  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:23:16  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:23:16  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:23:17  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:24:19  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:24:19  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:24:20  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:25:21  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:25:21  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:25:22  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:26:24  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:26:24  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:26:25  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:27:27  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:27:27  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:27:28  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:28:03  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 139
+Mon, 28 Sep 2015 13:28:03  new.py[line:206] WARNING unknown message type: buddylist_changedetails:    {u'poll_type': u'buddylist_change', u'value': {u'added_friends': [{u'groupid': 0, u'uin': 2135440583}], u'removed_friends': []}}
+Mon, 28 Sep 2015 13:28:03  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:29:04  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:29:04  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:29:05  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:30:06  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:30:06  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:30:07  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:31:09  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:31:09  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:31:10  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:32:12  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:32:12  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:32:13  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:33:15  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:33:15  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:33:16  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:34:18  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:34:18  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:34:19  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:35:21  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:35:21  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:35:22  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:36:24  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:36:24  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:36:25  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:37:26  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:37:26  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:37:27  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:37:29  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 72
+Mon, 28 Sep 2015 13:37:29  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:38:29  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:38:29  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:38:30  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:39:32  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:39:32  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:39:33  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:40:35  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:40:35  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:40:36  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:41:38  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:41:38  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:41:39  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:42:02  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 171
+Mon, 28 Sep 2015 13:42:02  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'InputNotify' is not defined
+Mon, 28 Sep 2015 13:42:03  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:42:03  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 274
+Mon, 28 Sep 2015 13:42:03  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'PmMsg' is not defined
+Mon, 28 Sep 2015 13:42:04  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:42:09  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 297
+Mon, 28 Sep 2015 13:42:09  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'PmMsg' is not defined
+Mon, 28 Sep 2015 13:42:10  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:42:56  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 180
+Mon, 28 Sep 2015 13:42:56  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'InputNotify' is not defined
+Mon, 28 Sep 2015 13:42:57  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:42:59  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 276
+Mon, 28 Sep 2015 13:42:59  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'PmMsg' is not defined
+Mon, 28 Sep 2015 13:43:00  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:43:00  connectionpool.py[line:383] DEBUG "POST /channel/login2 HTTP/1.1" 200 458
+Mon, 28 Sep 2015 13:43:00  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:44:00  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:44:00  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:44:01  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:45:02  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:45:02  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:45:03  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:46:05  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:46:05  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:46:06  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:47:08  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:47:08  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:47:09  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:48:11  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:48:11  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:48:12  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:49:14  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:49:14  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:49:15  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:50:16  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:50:16  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:50:17  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:51:19  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:51:19  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:51:20  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:52:22  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:52:22  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:52:23  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:53:25  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:53:25  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:53:26  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:54:28  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:54:28  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:54:29  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:55:31  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:55:31  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:55:32  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:56:33  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:56:33  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:56:35  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:57:36  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:57:36  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:57:37  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:57:39  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 72
+Mon, 28 Sep 2015 13:57:39  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:58:39  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:58:39  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:58:40  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 13:59:42  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 13:59:42  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 13:59:43  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:00:45  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:00:45  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:00:46  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:01:48  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:01:48  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:01:49  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:02:24  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 171
+Mon, 28 Sep 2015 14:02:24  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'InputNotify' is not defined
+Mon, 28 Sep 2015 14:02:25  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:02:26  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 276
+Mon, 28 Sep 2015 14:02:26  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'PmMsg' is not defined
+Mon, 28 Sep 2015 14:02:27  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:03:27  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:03:27  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:03:28  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:04:29  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:04:29  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:04:30  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:05:32  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:05:32  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:05:33  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:06:35  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:06:35  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:06:36  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:07:38  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:07:38  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:07:39  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:08:41  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:08:41  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:08:42  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:09:44  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:09:44  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:09:45  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:10:47  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:10:47  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:10:48  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:11:50  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:11:50  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:11:51  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:12:53  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:12:53  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:12:54  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:13:00  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 339
+Mon, 28 Sep 2015 14:13:00  new.py[line:206] WARNING unknown message type: discu_messagedetails:    {u'poll_type': u'discu_message', u'value': {u'reply_ip': 183598439, u'seq': 9, u'msg_type': 42, u'send_uin': 2188287508, u'did': 1301649584, u'msg_id': 9, u'content': [[u'font', {u'color': u'000000', u'style': [0, 0, 0], u'name': u'Helvetica', u'size': 9}], u'yu '], u'info_seq': 51, u'msg_id2': 13990, u'from_uin': 1301649584, u'time': 1443420745, u'to_uin': 3050583943}}
+Mon, 28 Sep 2015 14:13:00  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:14:00  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:14:00  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:14:01  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:15:03  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:15:03  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:15:04  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:15:22  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 343
+Mon, 28 Sep 2015 14:15:22  new.py[line:206] WARNING unknown message type: discu_messagedetails:    {u'poll_type': u'discu_message', u'value': {u'reply_ip': 176886348, u'seq': 10, u'msg_type': 42, u'send_uin': 2188287508, u'did': 1301649584, u'msg_id': 10, u'content': [[u'font', {u'color': u'000000', u'style': [0, 0, 0], u'name': u'Helvetica', u'size': 9}], u'iou '], u'info_seq': 51, u'msg_id2': 875565, u'from_uin': 1301649584, u'time': 1443420887, u'to_uin': 3050583943}}
+Mon, 28 Sep 2015 14:15:22  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:16:22  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:16:22  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:16:23  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:17:26  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:17:26  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:17:27  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:18:29  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:18:29  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:18:30  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:18:31  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 72
+Mon, 28 Sep 2015 14:18:31  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:19:32  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:19:32  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:19:33  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:20:34  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:20:34  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:20:35  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:21:37  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:21:37  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:21:38  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:22:40  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:22:40  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:22:41  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:23:41  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:23:41  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:23:42  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:24:42  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:24:42  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:24:43  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:25:44  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:25:44  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:25:45  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:26:47  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:26:47  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:26:48  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:27:50  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:27:50  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:27:51  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:28:53  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:28:53  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:28:54  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:29:56  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:29:56  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:29:57  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:30:59  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:30:59  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:31:00  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:32:02  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:32:02  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:32:03  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:33:05  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:33:05  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:33:06  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:34:08  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:34:08  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:34:09  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:35:10  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:35:10  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:35:11  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:36:14  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:36:14  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:36:15  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:37:17  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:37:17  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:37:18  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:38:11  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 170
+Mon, 28 Sep 2015 14:38:11  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'InputNotify' is not defined
+Mon, 28 Sep 2015 14:38:12  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:38:12  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 285
+Mon, 28 Sep 2015 14:38:12  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'PmMsg' is not defined
+Mon, 28 Sep 2015 14:38:13  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:39:13  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:39:13  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:39:14  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:39:16  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 547
+Mon, 28 Sep 2015 14:39:16  new.py[line:234] WARNING Unknown check error occured, retrying. Error: global name 'PmMsg' is not defined
+Mon, 28 Sep 2015 14:39:17  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:40:17  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:40:17  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:40:18  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:41:20  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:41:20  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:41:21  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
+Mon, 28 Sep 2015 14:42:22  connectionpool.py[line:383] DEBUG "POST /channel/poll2 HTTP/1.1" 200 29
+Mon, 28 Sep 2015 14:42:22  new.py[line:174] INFO received retcode: 102: No message.
+Mon, 28 Sep 2015 14:42:24  connectionpool.py[line:238] INFO Resetting dropped connection: d.web2.qq.com
